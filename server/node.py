@@ -11,9 +11,9 @@ class Node(object):
 
 def unittest(argv):
     """
-    main entry of
+    unittest of class Node
     """
 
 
 if __name__ == '__main__':
-    return main(sys.argv[1:])
+    return unittest(sys.argv[1:])
